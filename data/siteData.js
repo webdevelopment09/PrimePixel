@@ -4,7 +4,7 @@ export const siteData = {
   description:
     "PrimePixel helps businesses position themselves online with modern, high-converting websites that make a strong first impression and turn visitors into customers.",
 
-  siteUrl: "https://your-real-domain.com",
+  siteUrl: "https://primepixel.site",
 
   email: "web.devel989@gmail.com",
   phone: "+995 505 05 33 32",
