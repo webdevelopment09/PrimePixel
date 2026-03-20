@@ -6,39 +6,39 @@ export default function sitemap() {
   return [
     {
       url: `${baseUrl}/`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/services`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/process`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/services/business-websites`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/services/landing-pages`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/services/website-redesigns`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
     {
       url: `${baseUrl}/services/ongoing-support`,
-      lastModified: new Date(),
+      lastModified: "2026-03-20",
     },
   ];
 }
