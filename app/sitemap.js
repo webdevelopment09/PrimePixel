@@ -1,26 +1,44 @@
 import { siteData } from "@/data/siteData";
 
 export default function sitemap() {
-  const staticPages = [
-    "",
-    "/about",
-    "/contact",
-    "/services",
-    "/process",
-    "/legal/privacy-policy",
-    "/legal/terms-of-service",
-    "/deployment-checklist",
+  const baseUrl = siteData.siteUrl;
+
+  return [
+    {
+      url: `${baseUrl}/`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/services`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/process`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/services/business-websites`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/services/landing-pages`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/services/website-redesigns`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/services/ongoing-support`,
+      lastModified: new Date(),
+    },
   ];
-
-  const staticEntries = staticPages.map((path) => ({
-    url: `${siteData.siteUrl}${path}`,
-    lastModified: new Date(),
-  }));
-
-  const serviceEntries = siteData.services.map((service) => ({
-    url: `${siteData.siteUrl}/services/${service.slug}`,
-    lastModified: new Date(),
-  }));
-
-  return [...staticEntries, ...serviceEntries];
 }
