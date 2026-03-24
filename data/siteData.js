@@ -6,7 +6,7 @@ export const siteData = {
 
   siteUrl: "https://primepixel.site",
 
-  email: "web.devel989@gmail.com",
+  email: "team.primepixel@gmail.com",
   phone: "+995 505 05 33 32",
   location: "Tbilisi, Georgia",
   whatsapp: "995555225843",
